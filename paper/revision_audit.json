@@ -1,0 +1,185 @@
+{
+  "n": 358,
+  "median_thresholds": [
+    1.5080248793317352,
+    1.6272303614988444,
+    1.6616377241922204,
+    1.835103437411629,
+    1.9624739302531502
+  ],
+  "median_optima": [
+    1.0511997422420638,
+    1.200087511374703,
+    1.453623486758163,
+    1.7795404393690424,
+    2.1622907757194305
+  ],
+  "endpoint_crossover_share": 0.6620111731843575,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 0,
+  "gap_penalty_5": {
+    "median": 0.4657260708444335,
+    "ci95": [
+      0.42973368248424504,
+      0.50404612473234
+    ]
+  },
+  "gap_penalty_80": {
+    "median": -0.24272158477750105,
+    "ci95": [
+      -0.3239723328611156,
+      -0.17305172167186034
+    ]
+  },
+  "heldout_log_likelihood": {
+    "shrink_c_abs_cv_nll": -46736.79175502037,
+    "shrink_abs_cv_nll": -47302.194355815256,
+    "compress_cv_nll": -47665.09808853819,
+    "reg_cv_nll": -49157.57837921278
+  },
+  "existing_bootstrap_summaries": [
+    {
+      "finding": "F1 under-adjustment (1 - slope/optimal slope)",
+      "estimate": 0.6177540250300815,
+      "ci_lo": 0.5521995031712795,
+      "ci_hi": 0.6866437348955415,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.8798882681564246,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F2 points kept (rr_frac - 0.9)",
+      "estimate": 0.038710228110252376,
+      "ci_lo": 0.03174436050177325,
+      "ci_hi": 0.04523760144325225,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.840782122905028,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F3 CV: cost > compression (sum heldout lnL)",
+      "estimate": 928.3063335178142,
+      "ci_lo": 423.1323752758386,
+      "ci_hi": 1414.747224627733,
+      "p_boot_le0": 0.0005,
+      "split_half_both": 0.999,
+      "share_subjects_consistent": 0.6480446927374302,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F3 CV: cost > log-linear (sum heldout lnL)",
+      "estimate": 2420.786624192411,
+      "ci_lo": 1844.659089415257,
+      "ci_hi": 3048.278846158995,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.7178770949720671,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F3 CV: one cost > cost per load",
+      "estimate": 565.4026007948871,
+      "ci_lo": 308.3501172109456,
+      "ci_hi": 824.5973274588391,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.6843575418994413,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F3 a-error: compression - cost",
+      "estimate": 0.0038108978690533455,
+      "ci_lo": -0.003981481830512809,
+      "ci_hi": 0.012315380236631528,
+      "p_boot_le0": 0.1785,
+      "split_half_both": 0.602,
+      "share_subjects_consistent": 0.61731843575419,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F4 load raises default a0",
+      "estimate": 0.35282158070067854,
+      "ci_lo": 0.278049804628382,
+      "ci_hi": 0.4226428383652905,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.776536312849162,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F4 load raises a (model-free)",
+      "estimate": 0.26475247620464,
+      "ci_lo": 0.21233438000076524,
+      "ci_hi": 0.3163915600380135,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.7849162011173184,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F5 anchor: default > previous (CV)",
+      "estimate": 3793.1889564153025,
+      "ci_lo": 2628.3178085079344,
+      "ci_hi": 5015.947012539811,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": 0.6396648044692738,
+      "n": 358,
+      "split_half_both_sig": ""
+    },
+    {
+      "finding": "F6 logc ~ SuS_AC (neg) [individual est.]",
+      "estimate": -0.18868190308337868,
+      "ci_lo": -0.30578655115601644,
+      "ci_hi": -0.06668701165259511,
+      "p_boot_le0": 0.002,
+      "split_half_both": 0.998,
+      "share_subjects_consistent": "",
+      "n": 277,
+      "split_half_both_sig": 0.265
+    },
+    {
+      "finding": "F6 logc ~ WMC (pos) [individual est.]",
+      "estimate": 0.16411787880686088,
+      "ci_lo": 0.04021679325943058,
+      "ci_hi": 0.2817825396335656,
+      "p_boot_le0": 0.0065,
+      "split_half_both": 0.991,
+      "share_subjects_consistent": "",
+      "n": 277,
+      "split_half_both_sig": 0.016
+    },
+    {
+      "finding": "F6 a0_noload ~ AC (neg) [individual est.]",
+      "estimate": -0.24245864755185745,
+      "ci_lo": -0.3485896153172225,
+      "ci_hi": -0.12255456591450942,
+      "p_boot_le0": 0.0,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": "",
+      "n": 277,
+      "split_half_both_sig": 0.79
+    },
+    {
+      "finding": "F6 a0_noload ~ WMC (neg) [individual est.]",
+      "estimate": -0.200357869325341,
+      "ci_lo": -0.30575945141490124,
+      "ci_hi": -0.07831208405382087,
+      "p_boot_le0": 0.0005,
+      "split_half_both": 1.0,
+      "share_subjects_consistent": "",
+      "n": 277,
+      "split_half_both_sig": 0.418
+    }
+  ]
+}
